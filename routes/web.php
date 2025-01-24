@@ -17,3 +17,6 @@ Route::get('/', [App\Http\Controllers\IndexController::class, 'index']);
 Route::get('/page2', function () {
     return view('pages/page2');
 });
+Route::get('/page3', function () {
+    return view('pages/page3');
+});
